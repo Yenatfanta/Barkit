@@ -118,6 +118,9 @@ struct ContentView: View {
 }
 ```
 ---
+## 📸 Preview
+![CustomBarContainer Preview](Screenshots/homeTabSelected.png)
+
 ## 📄 License
 MIT License -- free for personal and commercial use.
 ---
