@@ -14,7 +14,7 @@ public struct TabItem {
     let selectedIcon: String?
     let title: String
     let badgeCount: Int?
-    init(id: Int, icon: String, selectedIcon: String? = nil, title: String, badgeCount:Int? = nil) {
+    public init(id: Int, icon: String, selectedIcon: String? = nil, title: String, badgeCount:Int? = nil) {
         self.id = id
         self.icon = icon
         self.selectedIcon = selectedIcon

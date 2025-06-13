@@ -11,7 +11,10 @@ public struct CustomTabBarContainer<Content: View>: View {
     @State private var selectedTab = 0
     let tabs: [TabItem]
     let content: (Int) -> Content
-    
+    public init(tabs: [TabItem], content: @escaping (Int) -> Content) {
+        self.tabs = tabs
+        self.content = content
+    }
     var backgroundColor = Color(.systemBackground)
     var selectedColor: Color = .blue
     var unselectedColor: Color = .gray
