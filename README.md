@@ -57,6 +57,9 @@ struct TabItem: Identifiable {
 ---
 ## 🎯 Usage Example
 ```swift
+import SwiftUI
+import BarKit
+
 struct ContentView: View {
     let tabs = [
         TabItem(
