@@ -119,7 +119,7 @@ struct ContentView: View {
 ```
 ---
 ## 📸 Preview
-![CustomBarContainer Preview](Screenshots/homeTabSelected.png)
+![CustomBarContainer Preview](/Users/yenatfeyyisa/Documents/untitled folder/BarKit/Sources/ScreenShots/homeTabSelected.png)
 
 ## 📄 License
 MIT License -- free for personal and commercial use.
